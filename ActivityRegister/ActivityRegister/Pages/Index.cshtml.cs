@@ -11,10 +11,12 @@ namespace ActivityRegister.Pages
         {
             _logger = logger;
         }
-
+        
         public void OnGet()
         {
 
         }
     }
 }
+
+//test test

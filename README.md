@@ -8,10 +8,10 @@ It allows users to:
 
 - Browse and search for available activities and classes.
 
-= View detailed information about each offering (e.g., description, instructor, schedule, fees).
+- View detailed information about each offering (e.g., description, instructor, schedule, fees).
 
 - Register for activities.
 
-= Manage their existing registrations (e.g., view details, cancel registrations).
+- Manage their existing registrations (e.g., view details, cancel registrations).
 
-= Sign up for the waitlist for each activity when the capacity is reached.
+- Sign up for the waitlist for each activity when the capacity is reached.

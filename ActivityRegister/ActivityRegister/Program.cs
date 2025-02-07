@@ -1,7 +1,12 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using ActivityRegister.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<ActivityRegisterContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ActivityRegisterContext") ?? throw new InvalidOperationException("Connection string 'ActivityRegisterContext' not found.")));
 
 var app = builder.Build();
 
